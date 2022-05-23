@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+.fixed-bg {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: center;
+}
+.bg1 {
+  height: 100vh;
+  background-image: url(./Assests/3_verres.jpg);
+}
+.bg2 {
+  height: 400px;
+  background-image: url(./Assests/3_verres.jpg);
+}
+.bg3 {
+  height: 400px;
+  background-image: url(./Assests/cereales-4verres.jpg);
+}
+
+section > * {
+  margin: 0;
+  font-family: "Tailwinds";
+  img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    text-align: justify;
+  }
+}
