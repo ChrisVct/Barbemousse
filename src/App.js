@@ -3,6 +3,7 @@ import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
 import NotreHistoire from "./components/Main/NotreHistoire/NotreHistoire";
 import LaBrasserie from "./components/Main/LaBrasserie/LaBrasserie";
+import NosBieres from "./components/Main/NosBieres/NosBieres";
 
 function App() {
   return (
