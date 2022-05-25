@@ -10,23 +10,23 @@ export default function NosBieres() {
     <>
       <div className="container-fluid g-0" id="NosBieresWrapper">
         <section
-          className="nosBieres-container row col-12 col-xl-5 offset-xl-1 d-flex flex-row g-0 "
+          className="nosBieres-container row col-12 col-xl-5 offset-xl-1 d-flex flex-row g-0 py-5"
           id="nosBieres"
         >
-          <figure className="beerCard1 beerCard col-6 col-xl-3 order-first">
+          <figure className="beerCard1 beerCard col-12 col-sm-6 col-xl-3 order-first gx-0">
             <img src={Biere1} alt="" />
           </figure>
-          <figure className="beerCard2 beerCard col-6 col-xl-3 order-2">
+          <figure className="beerCard2 beerCard col-12 col-sm-6 col-xl-3 order-1 order-sm-2">
             <img src={Biere2} alt="" />
           </figure>
-          <figure className="beerCard3 beerCard col-6 col-xl-3 order-3 ">
+          <figure className="beerCard3 beerCard col-12 col-sm-6 col-xl-3 order-3">
             <img src={Biere3} alt="" />
           </figure>
-          <figure className="beerCard4 beerCard col-6 col-xl-3 order-last">
+          <figure className="beerCard4 beerCard col-12 col-sm-6 col-xl-3 order-5 order-sm-last">
             <img src={Biere4} alt="" />
           </figure>
-          <article className="beerPresentation1 beerPresentation col-6 col-xl-4 order-0">
-            <h3>La moussette</h3>
+          <article className="beerPresentation1 beerPresentation col-12 col-sm-6 col-xl-4 order-0">
+            <h3 className="text-center text-sm-start">La moussette</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
               aliquid vitae dolor eaque unde, ipsa veniam at suscipit, neque
@@ -36,8 +36,10 @@ export default function NosBieres() {
               enim libero, sequi ad!
             </p>
           </article>
-          <article className="beerPresentation2 beerPresentation col-6 col-xl-4 order-1">
-            <h3>L'embrumée</h3>
+          <article className="beerPresentation2 beerPresentation col-12 col-sm-6 col-xl-4 order-2 order-sm-1">
+            <h3 className="text-center text-sm-end text-xl-start">
+              L'embrumée
+            </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
               aliquid vitae dolor eaque unde, ipsa veniam at suscipit, neque
@@ -47,8 +49,8 @@ export default function NosBieres() {
               enim libero, sequi ad!
             </p>
           </article>
-          <article className="beerPresentation3 beerPresentation col-6 col-xl-4 order-4">
-            <h3>La pression sociale</h3>
+          <article className="beerPresentation3 beerPresentation col-12 col-sm-6 col-xl-4 order-4">
+            <h3 className="text-center text-sm-start">La pression sociale</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
               aliquid vitae dolor eaque unde, ipsa veniam at suscipit, neque
@@ -58,8 +60,10 @@ export default function NosBieres() {
               enim libero, sequi ad!
             </p>
           </article>
-          <article className="beerPresentation4 beerPresentation col-6 col-xl-4 order-5">
-            <h3>La canonnade</h3>
+          <article className="beerPresentation4 beerPresentation col-12 col-sm-6 col-xl-4 order-last order-sm-5">
+            <h3 className="text-center text-sm-end text-xl-start">
+              La canonnade
+            </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
               aliquid vitae dolor eaque unde, ipsa veniam at suscipit, neque
@@ -69,7 +73,7 @@ export default function NosBieres() {
               enim libero, sequi ad!
             </p>
           </article>
-          <article className="beerPresentation0 beerPresentation col-6 col-xl-4 d-none d-xl-block ">
+          <article className="beerPresentation0 beerPresentation col-4 d-none d-xl-block ">
             <h3>Sélectionner votre bière pour en savoir plus !</h3>
           </article>
         </section>
