@@ -10,7 +10,7 @@ export default function NosBieres() {
     <>
       <div className="container-fluid g-0" id="NosBieresWrapper">
         <section
-          className="nosBieres-container row col-12 col-xl-5 offset-xl-1 d-flex flex-row g-0 py-5"
+          className="nosBieres-container row col-12 col-xl-5 offset-xl-1 d-flex flex-row g-0 py-5 py-xl-0"
           id="nosBieres"
         >
           <figure className="beerCard1 beerCard col-12 col-sm-6 col-xl-3 order-first gx-0">

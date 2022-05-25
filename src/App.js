@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar/NavBar";
 import NotreHistoire from "./components/Main/NotreHistoire/NotreHistoire";
 import LaBrasserie from "./components/Main/LaBrasserie/LaBrasserie";
 import NosBieres from "./components/Main/NosBieres/NosBieres";
+import FacebookSection from "./components/Main/Facebook/FacebookSection";
 
 function App() {
   return (
@@ -18,9 +19,8 @@ function App() {
         <LaBrasserie />
         <div className="fixed-bg bg3"></div>
         <NosBieres />
-        <section id="nosBieres"></section>
-        <div className="fixed-bg bg4"></div>
-        <section id="actualites"></section>
+        <div className="fixed-bg bg3"></div>
+        <FacebookSection />
         <div className="fixed-bg bg5"></div>
         <section id="pointsDeVente"></section>
         <div className="fixed-bg bg6"></div>
