@@ -5,6 +5,7 @@ import NotreHistoire from "./components/Main/NotreHistoire/NotreHistoire";
 import LaBrasserie from "./components/Main/LaBrasserie/LaBrasserie";
 import NosBieres from "./components/Main/NosBieres/NosBieres";
 import FacebookSection from "./components/Main/Facebook/FacebookSection";
+import PointsDeVente from "./components/Main/PointsDeVente/PointsDeVente";
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
         <NosBieres />
         <div className="fixed-bg bg3"></div>
         <FacebookSection />
-        <div className="fixed-bg bg5"></div>
-        <section id="pointsDeVente"></section>
+        <div className="fixed-bg bg3"></div>
+        <PointsDeVente />
         <div className="fixed-bg bg6"></div>
         <section id="Contact"></section>
         <div className="fixed-bg bg7"></div>

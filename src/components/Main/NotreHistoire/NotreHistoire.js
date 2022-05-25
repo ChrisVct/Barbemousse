@@ -1,6 +1,6 @@
 import React from "react";
 import "./NotreHistoire.scss";
-import BreweryPics1 from "./../../../Assests/breweryPics1.jpg";
+import notreHistoirePics1 from "./../../../Assests/notreHistoirePics1.jpg";
 
 export default function NotreHistoire() {
   return (
@@ -11,7 +11,7 @@ export default function NotreHistoire() {
           className=" row col-12 col-xl-8 offset-xl-2 g-0 d-flex flex-column-reverse flex-md-row"
         >
           <figure className="col-12 col-md-6 ">
-            <img src={BreweryPics1} alt="" />
+            <img src={notreHistoirePics1} alt="" />
           </figure>
           <article className="col-12 col-md-6 px-3 pt-3">
             <h1>Notre histoire</h1>
