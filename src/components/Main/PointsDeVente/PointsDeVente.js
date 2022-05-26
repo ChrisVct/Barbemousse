@@ -9,15 +9,14 @@ export default function PointsDeVente() {
       {" "}
       <section className="mainArticle" id="pointDeVente">
         <div>
-          <h2>Où trouver nos bières ?</h2>
-          <h4 className="enTete text-center">
-            A emporter (<i className="fa-solid fa-cart-arrow-down"></i>) ou à
-            consommer sur place (
-            <i className="fa-solid fa-champagne-glasses"></i>)
-          </h4>
+          <h2 className="fw-bold">Où trouver nos bières ?</h2>
+          <h5 className="enTete text-center">
+            A emporter (<i class="bi bi-basket2"></i>) ou à consommer sur place
+            (<i class="bi bi-cup-straw "></i>)
+          </h5>
         </div>
-        <article className="beerList ">
-          <ul>
+        <div className=" col-12 col-xl-11  offset-xxl-2">
+          <ul className="row row-cols-md-2 row-cols-1 g-0">
             {pointsDeVente.map(
               ({ id, nom, adresse, cp_ville, pourAcheter, pourConsommer }) => (
                 <VendeurCard
@@ -31,7 +30,7 @@ export default function PointsDeVente() {
               )
             )}
           </ul>
-        </article>
+        </div>
       </section>
     </>
   );
