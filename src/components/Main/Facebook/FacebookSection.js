@@ -20,8 +20,11 @@ export default function FacebookSection() {
           <i className="fa-brands fa-facebook "></i>
           <h2>
             Retrouvez toute l'actualité sur{" "}
-            <a href="https://www.facebook.com/Microbrasserie-Barbemousse-109357753889418/">
-              notre page Facebook
+            <a
+              href="https://www.facebook.com/Microbrasserie-Barbemousse-109357753889418/"
+              target="_blank"
+            >
+              <strong>notre page Facebook</strong>
             </a>{" "}
             !
           </h2>
