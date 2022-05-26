@@ -26,7 +26,7 @@ function App() {
         <PointsDeVente />
         <div className="fixed-bg bg3"></div>
         <section id="Contact"></section>
-        <div className="fixed-bg bg3"></div>
+        <div className="fixed-bg bg5"></div>
       </main>
       <footer>
         <Footer />
