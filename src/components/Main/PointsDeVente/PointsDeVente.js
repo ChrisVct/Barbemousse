@@ -8,17 +8,15 @@ export default function PointsDeVente() {
     <>
       {" "}
       <section className="mainArticle" id="pointDeVente">
-        <div className="enTete">
-          <h1>Où trouver nos bières ?</h1>
-          <p>
-            A emporter (<i className="fa-solid fa-cart-arrow-down"></i>)
-          </p>
-          <p>
-            &nbsp;ou à consommer sur place (
+        <div>
+          <h2>Où trouver nos bières ?</h2>
+          <h4 className="enTete text-center">
+            A emporter (<i className="fa-solid fa-cart-arrow-down"></i>) ou à
+            consommer sur place (
             <i className="fa-solid fa-champagne-glasses"></i>)
-          </p>
+          </h4>
         </div>
-        <article className="beerList">
+        <article className="beerList ">
           <ul>
             {pointsDeVente.map(
               ({ id, nom, adresse, cp_ville, pourAcheter, pourConsommer }) => (
