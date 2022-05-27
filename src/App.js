@@ -24,10 +24,9 @@ function App() {
         <FacebookSection />
         <div className="fixed-bg bg3"></div>
         <PointsDeVente />
-        <div className="fixed-bg bg6"></div>
+        <div className="fixed-bg bg4"></div>
         <section id="Contact"></section>
         <div className="fixed-bg bg7"></div>
-        <div className="fixed-bg bg7bis"></div>
       </main>
       <footer>
         <Footer />
