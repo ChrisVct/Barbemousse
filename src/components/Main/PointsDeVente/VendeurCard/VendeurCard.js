@@ -12,20 +12,20 @@ export default function VendeurCard({
     pourAcheter === "oui" ? (
       pourConsommer === "oui" ? (
         <span className=" d-flex align-items-center">
-          <i class="bi bi-basket2 "></i>
+          <i className="bi bi-basket2 "></i>
           {/* <i className="fa-solid fa-cart-arrow-down"></i> */}
-          <i class="bi bi-cup-straw"></i>
+          <i className="bi bi-cup-straw"></i>
           {/* <i className="fa-solid fa-champagne-glasses"></i> */}
         </span>
       ) : (
         <span className=" d-flex align-items-center">
-          <i class="bi bi-basket2 "></i>
+          <i className="bi bi-basket2 "></i>
           {/* <i className="fa-solid fa-cart-arrow-down d-flex align-items-center"></i> */}
         </span>
       )
     ) : (
       <span className=" d-flex align-items-center">
-        <i class="bi bi-cup-straw "></i>
+        <i className="bi bi-cup-straw "></i>
         {/* <i className="fa-solid fa-champagne-glasses"></i> */}
       </span>
     );

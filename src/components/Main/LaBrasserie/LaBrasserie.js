@@ -7,7 +7,7 @@ export default function LaBrasserie() {
     <>
       <div className="container-fluid p-0" id="laBrasserieWrapper">
         <section
-          id="LaBrasserie"
+          id="laBrasserie"
           className=" row col-12 col-xl-8 offset-xl-2 g-0 d-flex flex-column-reverse flex-md-row-reverse "
         >
           <figure className="col-12 col-md-6 ">

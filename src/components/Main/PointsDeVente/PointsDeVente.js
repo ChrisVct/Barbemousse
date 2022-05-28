@@ -11,8 +11,8 @@ export default function PointsDeVente() {
         <div>
           <h2 className="fw-bold">Où trouver nos bières ?</h2>
           <h5 className="enTete text-center">
-            A emporter (<i class="bi bi-basket2"></i>) ou à consommer sur place
-            (<i class="bi bi-cup-straw "></i>)
+            A emporter (<i className="bi bi-basket2"></i>) ou à consommer sur
+            place (<i className="bi bi-cup-straw "></i>)
           </h5>
         </div>
         <div className=" col-12 col-xl-11  offset-xxl-2">
