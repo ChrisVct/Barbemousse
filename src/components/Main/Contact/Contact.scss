@@ -1,9 +1,8 @@
 @import "../../Variable-prop2.scss";
 #contact {
-  background-color: $color-cinq;
+  background-color: $color-tertiary;
   section {
-    background-color: $color-secondary;
-    border: "2px solid black";
+    // background-color: $color-secondary;
   }
   .form-control {
     background-color: $color-secondary;
