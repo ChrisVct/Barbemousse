@@ -15,7 +15,7 @@ export default function PointsDeVente() {
             place (<i className="bi bi-cup-straw "></i>)
           </h5>
         </div>
-        <div className=" col-12 col-xl-11  offset-xxl-2">
+        <div className=" col-12 col-xl-10  offset-xxl-2">
           <ul className="row row-cols-md-2 row-cols-1 g-0">
             {pointsDeVente.map(
               ({ id, nom, adresse, cp_ville, pourAcheter, pourConsommer }) => (

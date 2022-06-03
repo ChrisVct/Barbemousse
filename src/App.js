@@ -7,6 +7,7 @@ import NosBieres from "./components/Main/NosBieres/NosBieres";
 import FacebookSection from "./components/Main/Facebook/FacebookSection";
 import PointsDeVente from "./components/Main/PointsDeVente/PointsDeVente";
 import Contact from "./components/Main/Contact/Contact";
+import Map from "./components/Main/Map/Map";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <PointsDeVente />
         <div className="fixed-bg bg3"></div>
         <Contact />
+        <Map />
         <div className="fixed-bg bg3"></div>
       </main>
       <footer>
