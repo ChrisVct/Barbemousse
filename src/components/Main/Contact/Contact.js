@@ -9,16 +9,17 @@ export default function Contact() {
         <p>La Rouelle, 14260 Bonnemaison</p>
         <br />
         <p>
-          <i class="bi bi-shop"></i>Horaires d'ouverture : mer. 14h/19h et
+          <i className="bi bi-shop"></i>Horaires d'ouverture : mer. 14h/19h et
           samedi 15h/19h30
         </p>
         <br />
         <p>
-          <i class="bi bi-telephone"></i>06.70.28.70.45
+          <i className="bi bi-telephone"></i>06.70.28.70.45
         </p>
         <br />
         <p>
-          <i class="bi bi-envelope-paper"></i>Courriel : b.barbemousse@gmail.com
+          <i className="bi bi-envelope-paper"></i>Courriel :
+          b.barbemousse@gmail.com
         </p>
       </section>
       <form
@@ -70,7 +71,7 @@ export default function Contact() {
           <label htmlFor="message">Votre message</label>
         </div>
         <button type="submit" className="btn btn-primary">
-          Submit
+          Envoyer
         </button>
       </form>
     </section>

@@ -3,20 +3,9 @@ import "./FacebookSection.scss";
 
 export default function FacebookSection() {
   return (
-    <div className="container-fluid">
-      <section className="mainArticle row" id="fbSection">
-        <div
-          className="fb-like-box col-4 d-none d-md-block offset-lg-1 offset-xl-2"
-          data-href="https://www.facebook.com/Microbrasserie-Barbemousse-109357753889418/"
-          data-width="400"
-          data-height="600"
-          data-colorscheme="light"
-          data-show-faces="false"
-          data-header="false"
-          data-stream="true"
-          data-show-border="false"
-        ></div>
-        <article className="col- 12 col-md-4 offset-md-3 offset-lg-2 offset-xl-1">
+    <div className="container-fluid g-0">
+      <section className="mainArticle row mx-auto" id="fbSection">
+        <article className="col-12 col-lg-6 col-xl-4 ms-auto text-center text-lg-end">
           <i className="fa-brands fa-facebook "></i>
           <h2>
             Retrouvez toute l'actualité sur{" "}
@@ -33,6 +22,19 @@ export default function FacebookSection() {
             N’hésitez pas à liker et à partager !
           </h4>
         </article>
+        <div className="d-none d-md-block col-6 col-xl-4 m-auto me-lg-auto">
+          <div
+            className="fb-like-box"
+            data-href="https://www.facebook.com/Microbrasserie-Barbemousse-109357753889418/"
+            data-width="400"
+            data-height="600"
+            data-colorscheme="light"
+            data-show-faces="false"
+            data-header="false"
+            data-stream="true"
+            data-show-border="false"
+          ></div>
+        </div>
       </section>
     </div>
   );
