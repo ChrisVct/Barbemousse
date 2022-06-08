@@ -7,4 +7,6 @@
 }
 html {
   background-color: grey;
+  scroll-padding-top: 250px;
+  scroll-behavior: smooth;
 }

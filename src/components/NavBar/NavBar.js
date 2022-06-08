@@ -46,7 +46,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#pointDeVente" className="navLink">
+            <a href="#map" className="navLink">
               Points De Vente
             </a>
           </li>
