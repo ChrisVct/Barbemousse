@@ -18,7 +18,6 @@ export default function ModalSec() {
         backdrop="static"
         keyboard={false}
         centered
-        className="g-0"
       >
         <Modal.Header closeButton>
           <Modal.Title>Avertissement</Modal.Title>
