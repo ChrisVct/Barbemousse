@@ -8,10 +8,12 @@ import FacebookSection from "./components/Main/Facebook/FacebookSection";
 import PointsDeVente from "./components/Main/PointsDeVente/PointsDeVente";
 import Contact from "./components/Main/Contact/Contact";
 import Map from "./components/Main/Map/Map";
+import ModalSec from "./components/Main/ModalSec/ModalSec";
 
 function App() {
   return (
     <div className="container-fluid g-0">
+      <ModalSec />
       <header>
         <NavBar />
       </header>
