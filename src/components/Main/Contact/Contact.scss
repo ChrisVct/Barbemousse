@@ -7,4 +7,14 @@
   .form-control {
     background-color: $color-secondary;
   }
+  .btn-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-bg: #aa8669;
+    --bs-btn-border-color: #f1ecd5;
+    --bs-btn-color: #f1ecd5;
+    --bs-btn-hover-bg: #6d594d;
+    --bs-btn-hover-border-color: #6d594d;
+  }
 }
+// className="fb-like-box d-none d-md-block col-3  offset-lg-1 offset-xl-3 m-auto"
+// article className="col-12 col-md-4 offset-md-3 offset-lg-2 offset-xl-1 mx-auto"

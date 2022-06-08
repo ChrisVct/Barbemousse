@@ -25,10 +25,10 @@ function App() {
         <div className="fixed-bg bg3"></div>
         <FacebookSection />
         <div className="fixed-bg bg3"></div>
-        <PointsDeVente />
+        {/* <PointsDeVente /> */}
+        <Map />
         <div className="fixed-bg bg3"></div>
         <Contact />
-        <Map />
         <div className="fixed-bg bg3"></div>
       </main>
       <footer>
