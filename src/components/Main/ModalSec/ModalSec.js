@@ -5,10 +5,18 @@ import Button from "react-bootstrap/Button";
 export default function ModalSec() {
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
+  const handleClose = () => {
+    setShow(false);
+    sessionStorage.setItem("isAdult", "true");
+  };
   const handleShow = () => setShow(true);
+
   useEffect(() => {
-    handleShow();
+    if (sessionStorage.getItem("isAdult") != "true") {
+      handleShow();
+    } else {
+      console.log(sessionStorage.getItem("isAdult"));
+    }
   }, []);
   return (
     <>
@@ -20,10 +28,10 @@ export default function ModalSec() {
         centered
       >
         <Modal.Header closeButton>
-          <Modal.Title>Avertissement</Modal.Title>
+          <Modal.Title>Ohoy les mousses !</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          Ce site est interdit aux mineurs. Avez vous plus de 18 ans ?
+          Ce site est réservé aux mousses majeurs. Es-tu majeur ?
         </Modal.Body>
         <Modal.Footer>
           <Button variant="primary" onClick={handleClose}>
