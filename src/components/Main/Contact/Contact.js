@@ -4,7 +4,7 @@ import "./Contact.scss";
 export default function Contact() {
   return (
     <section id="contact" className="row m-0">
-      <section className="col-4 offset-2 my-3 ">
+      <section className="col-11 col-md-6 col-xl-4 offset-xl-2 m-auto my-3">
         <h2>Microbrasserie BARBEMOUSSE</h2>
         <p>La Rouelle, 14260 Bonnemaison</p>
         <br />
@@ -25,7 +25,7 @@ export default function Contact() {
       <form
         method="post"
         action="/traitement_formulaire.php"
-        className="col-4  my-3"
+        className="col-11 col-md-6 col-xl-4 m-auto my-3"
         id="contactForm"
       >
         <div className="row col-12 g-1">
@@ -70,9 +70,11 @@ export default function Contact() {
           ></textarea>
           <label htmlFor="message">Votre message</label>
         </div>
-        <button type="submit" className="btn btn-primary">
-          Envoyer
-        </button>
+        <div className="col text-center">
+          <button type="submit" className="btn btn-primary btn-lg">
+            Envoyer
+          </button>
+        </div>
       </form>
     </section>
   );
