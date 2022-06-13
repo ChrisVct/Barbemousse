@@ -33,3 +33,14 @@ section > * {
     text-align: justify;
   }
 }
+
+@supports (-webkit-touch-callout: none) {
+  //specific to IOS to remove fixed BGround as it is not supported on ios devices
+  .bg1 {
+    background-attachment: unset;
+  }
+  .bg2,
+  .bg3 {
+    display: none;
+  }
+}
