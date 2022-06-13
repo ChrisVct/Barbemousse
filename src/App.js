@@ -18,7 +18,7 @@ function App() {
         <NavBar />
       </header>
       <main>
-        <div className="fixed-bg bg1"></div>
+        <div className="fixed-bg bg1" id="top"></div>
         <NotreHistoire />
         <div className="fixed-bg bg2"></div>
         <LaBrasserie />

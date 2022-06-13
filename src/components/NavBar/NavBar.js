@@ -38,7 +38,9 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <img className="navLink logo" src={Logo} alt="" />
+            <a href="#top">
+              <img href="#top" className="navLink logo" src={Logo} alt="" />
+            </a>
           </li>
           <li>
             <a href="#fbSection" className="navLink">
