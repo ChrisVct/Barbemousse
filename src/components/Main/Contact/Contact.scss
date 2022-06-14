@@ -1,16 +1,17 @@
+.btn-primary {
+  --bs-btn-active-color: none;
+  --bs-btn-font-weight: 600;
+  --bs-btn-bg: #aa8669 !important;
+  --bs-btn-border-color: #f1ecd5 !important;
+  --bs-btn-color: #f1ecd5 !important;
+  --bs-btn-hover-bg: #6d594d !important;
+  --bs-btn-hover-border-color: #6d594d !important;
+}
 @import "../../Variable-prop2.scss";
 #contact {
   background-color: $color-tertiary;
   .form-control {
     background-color: $color-secondary;
   }
-  .btn-primary {
-    --bs-btn-active-color: none;
-    --bs-btn-font-weight: 600;
-    --bs-btn-bg: #aa8669 !important;
-    --bs-btn-border-color: #f1ecd5 !important;
-    --bs-btn-color: #f1ecd5 !important;
-    --bs-btn-hover-bg: #6d594d !important;
-    --bs-btn-hover-border-color: #6d594d !important;
-  }
 }
+@import "~bootstrap/scss/bootstrap";
