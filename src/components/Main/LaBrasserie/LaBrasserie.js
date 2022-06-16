@@ -14,7 +14,7 @@ export default function LaBrasserie() {
             <img src={brasseriePics} alt="" />
           </figure>
           <article className="col-12 col-md-6 px-3 pt-3">
-            <h1 className="text-end">La Brasserie</h1>
+            <h2 className="text-end">La Brasserie</h2>
             <p>
               &emsp;&emsp;La brasserie est installée à Bonnemaison, dans un lieu
               paisible où il fait bon vivre aux portes de la suisse normande.

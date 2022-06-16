@@ -67,7 +67,6 @@ export default function Navbar() {
         </nav>
       )}
       <i
-        // src={burgerBar} //button à changer pour un free license
         onClick={toggleNav}
         className="fa-solid fa-bars displayNavBtn"
         alt=""

@@ -4,22 +4,28 @@ import "./Contact.scss";
 export default function Contact() {
   return (
     <section id="contact" className="row m-0">
-      <section className="col-11 col-md-6 col-xl-4 offset-xl-2 m-auto my-3">
-        <h2>Microbrasserie BARBEMOUSSE</h2>
-        <p>La Rouelle, 14260 Bonnemaison</p>
-        <br />
+      <section className="col-11 col-md-6 col-xl-4  m-auto my-3">
+        <h1>Microbrasserie BARBEMOUSSE</h1>
         <p>
-          <i className="bi bi-shop"></i>Horaires d'ouverture : mer. 14h/19h et
-          samedi 15h/19h30
+          <br />
+          <i className="bi bi-shop"></i>
+          &emsp;La Rouelle, 14260 Bonnemaison
         </p>
         <br />
         <p>
-          <i className="bi bi-telephone"></i>06.70.28.70.45
+          <i class="bi bi-clock"></i> &emsp;Horaires d'ouverture :
+          <br />
+          &emsp;&emsp;&emsp;Mercredi : 14h-19h
+          <br />
+          &emsp;&emsp;&emsp;Samedi : 15h/19h30
         </p>
         <br />
         <p>
-          <i className="bi bi-envelope-paper"></i>Courriel :
-          b.barbemousse@gmail.com
+          <i className="bi bi-telephone"></i>&emsp;06.70.28.70.45
+        </p>
+        <br />
+        <p>
+          <i className="bi bi-envelope-paper"></i>&emsp; b.barbemousse@gmail.com
         </p>
       </section>
       <form

@@ -14,7 +14,7 @@ export default function NotreHistoire() {
             <img src={histoirePics} alt="" />
           </figure>
           <article className="col-12 col-md-6 px-3 pt-3">
-            <h1>L’histoire de la brasserie</h1>
+            <h2>L’histoire de la brasserie</h2>
             <p>
               &emsp;&emsp;Passionné depuis longtemps par le monde brassicole,
               j’ai commencé à brasser mes premières bières en 2014 dans le

@@ -26,7 +26,7 @@ export default function NosBieres() {
             <img src={Biere4} alt="" />
           </figure>
           <article className="beerPresentation1 beerPresentation col-12 col-sm-6 col-xl-4 order-0">
-            <h3 className="text-center text-sm-start">La moussette</h3>
+            <h2 className="text-center text-sm-start">La moussette</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
               aliquid vitae dolor eaque unde, ipsa veniam at suscipit, neque
@@ -37,9 +37,9 @@ export default function NosBieres() {
             </p>
           </article>
           <article className="beerPresentation2 beerPresentation col-12 col-sm-6 col-xl-4 order-2 order-sm-1">
-            <h3 className="text-center text-sm-end text-xl-start">
+            <h2 className="text-center text-sm-end text-xl-start">
               L'embrumée
-            </h3>
+            </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
               aliquid vitae dolor eaque unde, ipsa veniam at suscipit, neque
@@ -50,7 +50,7 @@ export default function NosBieres() {
             </p>
           </article>
           <article className="beerPresentation3 beerPresentation col-12 col-sm-6 col-xl-4 order-4">
-            <h3 className="text-center text-sm-start">La pression sociale</h3>
+            <h2 className="text-center text-sm-start">La pression sociale</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
               aliquid vitae dolor eaque unde, ipsa veniam at suscipit, neque
@@ -61,9 +61,9 @@ export default function NosBieres() {
             </p>
           </article>
           <article className="beerPresentation4 beerPresentation col-12 col-sm-6 col-xl-4 order-last order-sm-5">
-            <h3 className="text-center text-sm-end text-xl-start">
+            <h2 className="text-center text-sm-end text-xl-start">
               La canonnade
-            </h3>
+            </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
               aliquid vitae dolor eaque unde, ipsa veniam at suscipit, neque
@@ -74,7 +74,7 @@ export default function NosBieres() {
             </p>
           </article>
           <article className="beerPresentation0 beerPresentation col-4 d-none d-xl-block ">
-            <h3>Sélectionner votre bière pour en savoir plus !</h3>
+            <h2>Sélectionner votre bière pour en savoir plus !</h2>
           </article>
         </section>
       </div>

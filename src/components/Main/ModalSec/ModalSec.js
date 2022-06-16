@@ -27,7 +27,7 @@ export default function ModalSec() {
         keyboard={false}
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title>Ohoy les mousses !</Modal.Title>
         </Modal.Header>
         <Modal.Body>

@@ -7,16 +7,17 @@ export default function FacebookSection() {
       <section className="mainArticle row mx-auto" id="fbSection">
         <article className="col-12 col-lg-6 col-xl-4 ms-auto text-center text-lg-end">
           <i className="fa-brands fa-facebook "></i>
-          <h2>
+          <h3>
             Retrouvez toute l'actualité sur{" "}
             <a
               href="https://www.facebook.com/Microbrasserie-Barbemousse-109357753889418/"
               target="_blank"
             >
+              <br />
               <strong>notre page Facebook</strong>
             </a>{" "}
             !
-          </h2>
+          </h3>
           <h4>
             Suivez toute l’actualité de la Brasserie sur notre page Facebook.
             N’hésitez pas à liker et à partager !

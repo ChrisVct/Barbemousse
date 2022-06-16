@@ -15,7 +15,13 @@ export default function Footer() {
     <>
       <div
         className="d-flex align-items-center justify-content-center flex-wrap "
-        style={{ height: "50px", backgroundColor: "#6d594d", color: "#f1ecd5" }}
+        style={{
+          height: "auto",
+          minHeight: "100px",
+          backgroundColor: "#6d594d",
+          color: "#f1ecd5",
+          fontSize: "1rem",
+        }}
       >
         <p className="m-0">© Microbrasserie Barbemousse 2022 -&nbsp; </p>
         <Button
@@ -73,8 +79,7 @@ export default function Footer() {
           <Modal.Title>Contact</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          Mon site personnel est en cours de réalisation. En attendant, vous
-          pouvez me contacter via :
+          Vous pouvez adresser vos demandes à :
           <br />
           <br />
           vichit.christophe@gmail.com
