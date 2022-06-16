@@ -13,7 +13,7 @@ export default function Contact() {
         </p>
         <br />
         <p>
-          <i class="bi bi-clock"></i> &emsp;Horaires d'ouverture :
+          <i className="bi bi-clock"></i> &emsp;Horaires d'ouverture :
           <br />
           &emsp;&emsp;&emsp;Mercredi : 14h-19h
           <br />

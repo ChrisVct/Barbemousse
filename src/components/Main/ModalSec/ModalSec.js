@@ -7,15 +7,12 @@ export default function ModalSec() {
 
   const handleClose = () => {
     setShow(false);
-    sessionStorage.setItem("isAdult", "true");
   };
   const handleShow = () => setShow(true);
 
   useEffect(() => {
     if (sessionStorage.getItem("isAdult") != "true") {
       handleShow();
-    } else {
-      console.log(sessionStorage.getItem("isAdult"));
     }
   }, []);
   return (
