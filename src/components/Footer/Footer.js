@@ -51,11 +51,11 @@ export default function Footer() {
         </Modal.Header>
         <Modal.Body>
           {" "}
-          <h3>Entreprise</h3>
+          <h3>Société</h3>
           Raison sociale : <br />
+          N° d'enregistrement :<br />
           R.C.S : <br />
           SIRET : <br />
-          Capital :<br />
           Date de Création : <br />
           Siège social :<br />
           Téléphone :
@@ -79,9 +79,8 @@ export default function Footer() {
           <Modal.Title>Contact</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          Vous pouvez adresser vos demandes à :
           <br />
-          <br />
+          <i className="bi bi-envelope-paper"></i>&nbsp;
           vichit.christophe@gmail.com
           <br />
           <br />

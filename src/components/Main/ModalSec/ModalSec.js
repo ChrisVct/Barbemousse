@@ -28,11 +28,12 @@ export default function ModalSec() {
           <Modal.Title>Ohoy les mousses !</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          Ce site est réservé aux mousses majeurs. Es-tu majeur ?
+          Ce site est réservé aux mousses majeurs. Êtes-vous majeur ?
         </Modal.Body>
         <Modal.Footer>
           <Button variant="primary" onClick={handleClose}>
-            Oui, je suis un grand !
+            Oui, je suis un grand{" "}
+            <span style={{ fontSize: "0.8rem" }}>(18 ans et plus)</span> !
           </Button>
           <Button variant="warning">Non, pas encore...</Button>
         </Modal.Footer>

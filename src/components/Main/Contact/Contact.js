@@ -5,7 +5,10 @@ export default function Contact() {
   return (
     <section id="contact" className="row m-0">
       <section className="col-11 col-md-6 col-xl-4  m-auto my-3">
-        <h1>Microbrasserie BARBEMOUSSE</h1>
+        <h1>
+          <strong> Microbrasserie BARBEMOUSSE</strong>
+        </h1>
+        <h3>Mathieu WALON</h3>
         <p>
           <br />
           <i className="bi bi-shop"></i>
@@ -33,6 +36,7 @@ export default function Contact() {
         action="/traitement_formulaire.php"
         className="col-11 col-md-6 col-xl-4 m-auto my-3"
         id="contactForm"
+        novalidate
       >
         <div className="row col-12 g-1">
           <div className="col mb-0 form-floating ">
@@ -42,6 +46,7 @@ export default function Contact() {
               id="nom"
               placeholder=" "
               name="nom"
+              required
             />
             <label htmlFor="nom">Nom</label>
           </div>
@@ -52,6 +57,7 @@ export default function Contact() {
               id="prenom"
               placeholder=" "
               name="prenom"
+              required
             />
             <label htmlFor="prenom"> Prénom</label>
           </div>
@@ -63,6 +69,7 @@ export default function Contact() {
             id="email"
             placeholder=" "
             name="email"
+            required
           />
           <label htmlFor="email">Courriel</label>
         </div>
@@ -73,6 +80,7 @@ export default function Contact() {
             id="message"
             name="message"
             style={{ height: "200px" }}
+            required
           ></textarea>
           <label htmlFor="message">Votre message</label>
         </div>
