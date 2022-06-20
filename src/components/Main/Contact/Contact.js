@@ -36,7 +36,7 @@ export default function Contact() {
         action="/traitement_formulaire.php"
         className="col-11 col-md-6 col-xl-4 m-auto my-3"
         id="contactForm"
-        novalidate
+        noValidate
       >
         <div className="row col-12 g-1">
           <div className="col mb-0 form-floating ">

@@ -1,6 +1,12 @@
 @import "../../Variable-prop2.scss";
 
 #map {
-  height: 500px;
-  background-color: $color-tertiary;
+  height: 700px;
+  background-color: $color-secondary;
+  li {
+    list-style-type: none;
+    i {
+      padding: 5px;
+    }
+  }
 }
