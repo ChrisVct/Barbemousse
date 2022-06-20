@@ -13,7 +13,7 @@ export default function NotreHistoire() {
           <figure className="col-12 col-md-6 ">
             <img src={histoirePics} alt="" />
           </figure>
-          <article className="col-12 col-md-6 px-3 pt-3">
+          <article className="col-12 col-md-6 px-3 pt-3  my-auto">
             <h2>L’histoire de la brasserie</h2>
             <p>
               &emsp;&emsp;Passionné depuis longtemps par le monde brassicole,
